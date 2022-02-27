@@ -37,13 +37,13 @@
 
 }
 .header-img{
-    width: 140px;
-    height: 140px;
+    width: 160px;
+    height: 160px;
     border-radius: 50%;
-    margin-top: 10px;
+    margin-top: 2px;
     margin-right: 10px;
     display: inline-block;
-    border: 5px solid #b7e9cd;
+    border: 10px solid #b7e9cd;
     background-size: cover;
 }
 
@@ -99,10 +99,7 @@
     width: 35%;
     padding: 20px 0 20px 20px;
 }
-.description  .group-right{
-   width: 65%;
-   font-size: 16px;
-}
+
 .description .des-block{
     margin-bottom: 20px;
     padding: 10px;
@@ -165,4 +162,75 @@
     margin-bottom: 6px;
     float: left;
 
+}
+.description  .group-right{
+    width: 65%;
+    font-size: 16px;
+    margin: 20px 20px 20px 0px;
+ }
+ .description .education-block{
+     padding: 10px;
+     margin-bottom: 20px;
+ }
+.group-right .line{
+    height: 2px;
+    width: 75px;
+    background-color: #00b14f;
+    margin-top: 12px;
+    margin-bottom: 12px; 
+    /* position: absolute;
+}
+.description .underline{
+    /* height: 2px;
+    width: 75px;
+    background-color: #00b14f;
+    margin-top: 12px;
+    margin-bottom: 12px; */
+    /* position: absolute; */
+}
+.description .education-block-title{
+    font-size: 16px;
+    color: #00b14f;
+    font-weight: 900;
+  
+}
+.description .icon-education{
+    width: 20px;
+    height: 20px;
+    background-color: #00b14f;
+    color: #fff;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 12px;
+    line-height: 20px;
+    display: inline-block;
+    margin-right: 8px;
+}
+
+.description .education-title{
+    font-weight: 600;
+    font-size: 14px;
+    color: #333;
+    margin-left: 5px;
+}
+.description .education-time{
+    display: inline-block;
+    float: right;
+    text-align: right;
+    color: #9c9c9c;
+    font-size: 14px;
+}
+.description .icon-arow-r{
+    font-size: 14px;
+    color: #9c9c9c;
+    margin: 0 5px;
+}
+.description .education-title-des{
+    font-size: 14px;
+    margin-top: 10px;
+    color: #00b14f;
+}
+.description .education-content{
+    font-size: 14px;
+    margin-top: 5px;
 }
