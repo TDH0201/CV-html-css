@@ -7,7 +7,7 @@
     box-sizing: border-box;
     list-style: none;
     text-decoration: none;
-    
+    font-family: 'roboto' ,Arial,sans-serif;
   
   }
 .main{
@@ -37,16 +37,20 @@
 
 }
 .header-img{
-    width: 160px;
-    height: 160px;
+    width: 140px;
+    height: 140px;
     border-radius: 50%;
-    margin-top: 2px;
+    vertical-align: middle;
     margin-right: 10px;
     display: inline-block;
     border: 10px solid #b7e9cd;
     background-size: cover;
+    /* background-image: url(./img/102180246.jpg); */
+    object-fit: cover;
 }
-
+.wrap-img{
+    display: inline-block;
+}
 
 .name{
     font-size: 38px;
@@ -79,7 +83,7 @@
 .profile .contatc-item{
     padding: 8px 0px;
     width: 33.32%;
-    height: 85px;
+   
 }
 .profile .contatc-item .contact-item-label{
     font-size: 14px;
@@ -112,7 +116,7 @@
     margin-bottom: 5px;
 }
 .des-block .des-block-obj{
-    font-size: 15px;
+    font-size: 14px;
     line-height: 1.4em;
     margin-top: 10px;
 }
@@ -120,7 +124,7 @@
     margin-bottom: 10px;
 }
 .des-block .skill-title{
-    font-size: 16px;
+    font-size: 14px;
     color: #000;
     margin-top: 10px;
 
@@ -161,6 +165,7 @@
     margin-right: 6px;
     margin-bottom: 6px;
     float: left;
+    font-size: 14px;
 
 }
 .description  .group-right{
@@ -177,16 +182,16 @@
     width: 75px;
     background-color: #00b14f;
     margin-top: 12px;
-    margin-bottom: 12px; 
-    /* position: absolute;
+   
+   
 }
-.description .underline{
-    /* height: 2px;
-    width: 75px;
-    background-color: #00b14f;
-    margin-top: 12px;
-    margin-bottom: 12px; */
-    /* position: absolute; */
+.description .education-wrap{
+    margin-top: 8px;
+}
+.description .wrap-line{
+   border-bottom: 1px solid #eee;
+   /* margin-bottom: 8px; */
+    
 }
 .description .education-block-title{
     font-size: 16px;
