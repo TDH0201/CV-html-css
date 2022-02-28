@@ -101,6 +101,7 @@
     margin-bottom: 4px;
     color: #00b14f;
     font-weight: 700;
+    text-transform: uppercase;
 }
 .profile .contatc-item .profile-des{
     font-size: 14px;
