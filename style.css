@@ -131,6 +131,8 @@
     font-size: 14px;
     line-height: 1.4em;
     margin-top: 10px;
+    text-justify: inter-word;
+    text-align: justify;
 }
 .description .des-block-header{
     margin-bottom: 10px;
