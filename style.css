@@ -154,7 +154,7 @@ body {
 	text-justify: inter-word !important;
 	text-align: justify;
 	display: block;
-	word-spacing: 3px;
+	/* word-spacing: 3px; */
 }
 
 .description .des-block-header {
