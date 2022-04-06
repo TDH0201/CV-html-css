@@ -280,9 +280,18 @@ body {
 	font-size: 14px;
 	margin-top: 10px;
 	color: #00b14f;
+	display: inline-block;
 }
 
 .description .education-content {
 	font-size: 14px;
 	margin-top: 5px;
+}
+
+.education-time-project {
+	display: inline-block;
+	float: right;
+	text-align: right;
+	color: #9c9c9c;
+	font-size: 14px;
 }
