@@ -280,7 +280,7 @@ body {
 	font-size: 14px;
 	margin-top: 10px;
 	color: #00b14f;
-	display: inline-block;
+	display: block;
 }
 
 .description .education-content {
